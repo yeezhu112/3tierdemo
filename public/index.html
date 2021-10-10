@@ -38,7 +38,7 @@
        var university = document.getElementById('university').value;
        var major = document.getElementById('major').value;
        console.log(firstName);
-       var url = `http://159.203.76.76:3002/add?firstName=${firstName}&lastName=${lastName}&email=${email}&phoneNo=${phoneNo}&university=${university}&major=${major}`;
+       var url = `http://159.65.184.83:3002/add?firstName=${firstName}&lastName=${lastName}&email=${email}&phoneNo=${phoneNo}&university=${university}&major=${major}`;
            
        superagent
            .get(url, {mode:'cors'})
@@ -51,7 +51,7 @@
            });
     }
     function readContacts(){
-        var url = 'http://159.203.76.76:3002/read';
+        var url = 'http://159.65.184.83:3002/read';
         superagent
             .get(url, {mode:'cors'})
             .end(function(err, res){
