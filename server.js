@@ -3,10 +3,17 @@ var app     = express();
 
 var mysql = require('mysql2');
 var connection = mysql.createConnection({
-  host: 'localhost',
+  /* host: 'localhost',
   user: 'root',
   password: 'ppcc511',
-  database: 'contacts'
+  database: 'contacts' */
+    user:'doadmin',
+    password:'M0nuf7DC8mNnRABS',
+    host: 'db-contacts-do-user-9898014-0.b.db.ondigitalocean.com',
+    port:25060,
+    database: 'contacts',
+    sslmode: 'REQUIRED'
+
 });
 
 
