@@ -1,0 +1,25 @@
+{
+  "name": "3tierdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeezhu112/3tierdemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yeezhu112/3tierdemo/issues"
+  },
+  "homepage": "https://github.com/yeezhu112/3tierdemo#readme"
+}

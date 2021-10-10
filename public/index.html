@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3tier demo</title>
+</head>
+<body>
+    <h3>Input</h3> <br>
+   <hr noshade size=2 color=blue width=50% align=left>
+   <pre>
+    First Name:     <input type="text" id="firstName" value="Sam"> *<br>
+    Last Name:      <input type="text" id="lastName" value="cool"> * <br>
+    Email:          <input type="text" id="email" value="xyz@mit.edu"> * <br>
+    Phone No.(####):<input type="text" id="phoneNo" value=3333> * <br>
+    university:     <input type="text" id="university" placeholder="university"> <br>
+    Major:          <input type="text" id="major" placeholder="Major"> <br>
+    </pre>
+    
+     <br>
+    
+    <button style="height:50px;width:200px" onclick="addContact()">Submit</button> <br> 
+
+    <hr noshade size=2 color=blue width=70% align=left>
+
+    <button style="height:50px;width:200px" onclick="readContacts()">Read</button> <br>
+    
+    <p id="outresult"></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/superagent"></script>
+    <script>
+    function addContact(){
+       var firstName = document.getElementById('firstName').value;
+       var lastName = document.getElementById('lastName').value;
+       var email = document.getElementById('email').value;
+       var phoneNo = document.getElementById('phoneNo').value;
+       var university = document.getElementById('university').value;
+       var major = document.getElementById('major').value;
+       console.log(firstName);
+       var url = `http://localhost:3002/add?firstName=${firstName}&lastName=${lastName}&email=${email}&phoneNo=${phoneNo}&university=${university}&major=${major}`;
+           
+       superagent
+           .get(url, {mode:'cors'})
+           .end(function(err, res){
+               if (err) {
+                   console.log('err:',err);
+               } else {
+                   console.log('response:',res.text);
+               }
+           });
+    }
+    function readContacts(){
+        var url = 'http://localhost:3002/read';
+        superagent
+            .get(url, {mode:'cors'})
+            .end(function(err, res){
+                if (err) {
+                    console.log('err:',err);
+                } else {
+                    console.log('response:',res.text);
+                    document.getElementById("outresult").innerHTML = res.text;
+                }
+            });
+    }
+
+    </script>   
+</body>
+</html>
+
