@@ -1,7 +1,15 @@
 # 3-tier Architecture Demo
 
-Index.html file is stored under public folder
+#Video demo
+[Demo video](https://youtu.be/5S-OaFjtILE) explains the architecture
 
-![Local version](/img/Three tier.jpg)
+#Frontend Webpage
+*This ![webpage index.html](public/index.html) can be either assessed 
+- locally
 
-Demo video explains the architecture--> Three Tie Arch Demo
+  ![Local version](img/Three tier.jpg)
+
+- Remotely
+  ![remote version](img/Three tier-2.jpg)
+
+
