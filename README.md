@@ -1,10 +1,10 @@
 # 3-tier Architecture Demo
 
-###Video demo
+### Video demo
 
 [Demo video](https://youtu.be/5S-OaFjtILE) explains the architecture
 
-###Frontend Webpage
+### Frontend Webpage
 
 This ![webpage index.html](public/index.html) can be either assessed 
 
@@ -16,7 +16,7 @@ This ![webpage index.html](public/index.html) can be either assessed
 
     ![remote version](img/Three tier-online.JPG)
   
-###Backend Server
+### Backend Server
 
 [server.js](server.js)
 
