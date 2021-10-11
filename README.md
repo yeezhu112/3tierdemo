@@ -6,10 +6,10 @@
 #Frontend Webpage
 *This ![webpage index.html](public/index.html) can be either assessed 
 - locally
-- 
-![Local version](img/Three tier.jpg)
--remotely
 
-![remote version](img/Three tier-2.jpg)
+  ![Local version](img/Three tier.jpg)
+
+- Remotely
+  ![remote version](img/Three tier-2.jpg)
 
 
