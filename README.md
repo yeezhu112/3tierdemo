@@ -22,7 +22,8 @@ This ![webpage index.html](public/index.html) can be either assessed
 
 [server.js](server.js)
 
-- Deployed locally 
+Deployed
+-  locally 
 
 
 or 
