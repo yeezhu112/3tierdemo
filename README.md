@@ -7,11 +7,11 @@
 *This ![webpage index.html](public/index.html) can be either assessed 
 - locally
 
-  ![Local version](img/Three tier.jpg)  
+  ![Local version](img/Three tier.JPG)  
 
 or
 
 - Remotely
-  ![remote version](img/Three tier-2.jpg)
+  ![remote version](img/Three tier-online.JPG)
 
 
