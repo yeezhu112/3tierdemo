@@ -4,4 +4,4 @@ Index.html file is stored under public folder
 
 ![Local version](/img/Three tier.jpg)
 
-Demo video explains the architecture--> Three Tie Arch Demo
+[Demo video](https://youtu.be/5S-OaFjtILE) explains the architecture--> Three Tie Arch Demo
