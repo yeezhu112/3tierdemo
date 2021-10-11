@@ -26,12 +26,9 @@ This [webpage index.html](public/index.html) can be either assessed
 
 Deployed
 -  locally 
-
-
 or 
-
-
 - through digital ocean virtual machine
-
-![local version](img/DC_VM_2.JPG)
+![VM](img/DC_VM.JPG)
+![DB](img/DC_DB.JPG)
+![VM2](img/DC_VM_2.JPG)
 
