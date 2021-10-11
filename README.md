@@ -11,12 +11,14 @@ This ![webpage index.html](public/index.html) can be either assessed
 
 - locally
 
-[Local version](img/Three tier.JPG)
+![local version](img/Three tier.JPG)
+
 
     
 - Remotely
 
-[remote version](img/Three tier-online.JPG)
+![remote version](img/Three tier-online.JPG)
+
   
 ### Backend Server
 
