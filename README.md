@@ -1,6 +1,6 @@
-# 3-tier Architecture Demo
+![local version](img/DC_VM_2.JPG)
 
-![local version](img/Three tier.JPG)
+# 3-tier Architecture Demo
 
 ### Video demo
 
