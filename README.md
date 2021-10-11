@@ -1,15 +1,39 @@
 # 3-tier Architecture Demo
 
-#Video demo
+![local version](img/Three tier.JPG)
+
+### Video demo
+
 [Demo video](https://youtu.be/5S-OaFjtILE) explains the architecture
 
-#Frontend Webpage
-*This ![webpage index.html](public/index.html) can be either assessed 
+### Frontend Webpage
+
+This [webpage index.html](public/index.html) can be either assessed 
+
+
 - locally
 
-  ![Local version](img/Three tier.jpg)
+![local version](img/Three tier.JPG)
 
+
+    
 - Remotely
-  ![remote version](img/Three tier-2.jpg)
+
+![remote version](img/Three tier-online.JPG)
+
+  
+### Backend Server
+
+[server.js](server.js)
+
+Deployed
+-  locally 
+
+
+or 
+
+
+- through digital ocean virtual machine
+
 
 
