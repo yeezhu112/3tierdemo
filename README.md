@@ -6,11 +6,11 @@
 #Frontend Webpage
 *This ![webpage index.html](public/index.html) can be either assessed 
 - locally
+    ![Local version](img/Three tier.JPG)
+    
 - Remotely
 
-  ![Local version](img/Three tier.JPG)  
-    
-  ![remote version](img/Three tier-online.JPG)
+    ![remote version](img/Three tier-online.JPG)
   
 #Backend Server
 *[server.js](server.js)
