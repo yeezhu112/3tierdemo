@@ -1,5 +1,3 @@
-![local version](img/DC_VM_2.JPG)
-
 # 3-tier Architecture Demo
 
 ### Video demo
@@ -35,5 +33,5 @@ or
 
 - through digital ocean virtual machine
 
-
+![local version](img/DC_VM_2.JPG)
 
