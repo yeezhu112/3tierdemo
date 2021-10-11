@@ -11,15 +11,24 @@ This ![webpage index.html](public/index.html) can be either assessed
 
 - locally
 
-    ![Local version](img/Three tier.JPG)
+![Local version](img/Three tier.JPG)
 
     
 - Remotely
 
-    ![remote version](img/Three tier-online.JPG)
+![remote version](img/Three tier-online.JPG)
   
 ### Backend Server
 
 [server.js](server.js)
+
+- Deployed locally 
+
+
+or 
+
+
+- through digital ocean virtual machine
+
 
 
